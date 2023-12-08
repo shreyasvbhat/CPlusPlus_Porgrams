@@ -96,11 +96,11 @@ string decimalToHexadecimal(int n){
 int main(){
     int n;
     cin>>n;
-    // cout<<binaryToDecimal(n)<<endl;
-    // cout<<octalToDecimal(n)<<endl;
-    //cout<<hexaDecimalToDedcimal(n)<<endl;
-    //cout<<decimalToBinary(n)<<endl;
-    //cout<<decimalToOctal(n)<<endl;
+    cout<<binaryToDecimal(n)<<endl;
+    cout<<octalToDecimal(n)<<endl;
+    cout<<hexaDecimalToDedcimal(n)<<endl;
+    cout<<decimalToBinary(n)<<endl;
+    cout<<decimalToOctal(n)<<endl;
     cout<<decimalToHexadecimal(n)<<endl;
 
     return 0;
